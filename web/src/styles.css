@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+}
+.greenNavbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0DA074;
+  color: white;
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.greenButton{
+  background-color: #0DA074;
+  color: white;
+}
+
+.whiteNavbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.search-box{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-box input[type="text"]{
+  padding: 8px;
+  outline: 0;
+}
+
+.table{
+  padding: 8px;
+  width: 100%;
+  background: #F1F1F1;
+;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  margin: 0;
+  padding: 8px;
+  text-align: left;
+}
+.redirect{
+  align-content: flex-start;
+}
